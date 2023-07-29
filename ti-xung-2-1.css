@@ -1,0 +1,9 @@
+.ti-xung-2-1 {
+  position: relative;
+  width: 100%;
+  height: 429px;
+  background-image: url(./public/ti-xung-2-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}

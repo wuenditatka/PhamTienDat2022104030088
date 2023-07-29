@@ -1,0 +1,68 @@
+.component-4-child {
+  position: relative;
+  width: 1343px;
+  height: 747px;
+  z-index: 0;
+}
+.component-4-item,
+.trang-ch1 {
+  position: absolute;
+  margin: 0 !important;
+}
+.component-4-item {
+  height: 12.85%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 87.15%;
+  left: 0;
+  background-color: var(--color-gray-200);
+  z-index: 1;
+}
+.trang-ch1 {
+  height: 4.69%;
+  width: 7.82%;
+  top: 4.82%;
+  left: 54.06%;
+  font-weight: 800;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 2;
+}
+.cozy-isometric-bedroom-gwynet,
+.d-isometric-aesthetic-bedroom {
+  position: absolute;
+  margin: 0 !important;
+  height: 61.45%;
+  width: 34.18%;
+  top: 18.88%;
+  right: 9.16%;
+  bottom: 19.68%;
+  left: 56.66%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 3;
+}
+.d-isometric-aesthetic-bedroom {
+  top: 19.28%;
+  right: 61.43%;
+  bottom: 19.28%;
+  left: 4.39%;
+  z-index: 4;
+}
+.component-4 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./component-2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Grenze:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="component-2">
+      <img class="component-2-child" alt="" src="./public/rectangle-28.svg" />
+
+      <div class="component-2-item"></div>
+      <div class="trang-ch2" id="trangChText">Trang chủ</div>
+      <img
+        class="karim-benzema-artwork-1"
+        alt=""
+        src="./public/karim-benzema-artwork-1@2x.png"
+      />
+
+      <img class="ti-xung-1" alt="" src="./public/ti-xung-1@2x.png" />
+
+      <img class="ti-xung-1-1" alt="" src="./public/ti-xung-1-1@2x.png" />
+    </div>
+
+    <script>
+      var trangChText = document.getElementById("trangChText");
+      if (trangChText) {
+        trangChText.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      </script>
+  </body>
+</html>

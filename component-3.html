@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./component-3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Grenze:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="component-3">
+      <img class="component-3-child" alt="" src="./public/rectangle-28.svg" />
+
+      <div class="component-3-item"></div>
+      <div class="trang-ch4" id="trangChText">Trang chủ</div>
+      <img
+        class="mr-generic-anatomy-chris-poll"
+        alt=""
+        src="./public/mr-generic-anatomy-chris-pollitt-1@2x.png"
+      />
+
+      <img
+        class="know-the-basics-zbrush-part"
+        alt=""
+        src="./public/know-the-basics--zbrush--part-one--modeling-1@2x.png"
+      />
+
+      <img
+        class="speedsculpts-kevin-beckers-1"
+        alt=""
+        src="./public/speedsculpts-kevin-beckers-1@2x.png"
+      />
+
+      <img
+        class="gus-fring-breaking-bad-sty"
+        alt=""
+        src="./public/gus-fring-breaking-bad--stylized-sculpt-thomas-le-marchand--geosyrup-1@2x.png"
+      />
+    </div>
+
+    <script>
+      var trangChText = document.getElementById("trangChText");
+      if (trangChText) {
+        trangChText.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      </script>
+  </body>
+</html>

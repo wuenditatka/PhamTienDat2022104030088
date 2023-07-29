@@ -1,0 +1,80 @@
+.component-1-child {
+  position: relative;
+  width: 1343px;
+  height: 747px;
+  z-index: 0;
+}
+.component-1-item,
+.trang-ch3 {
+  position: absolute;
+  margin: 0 !important;
+}
+.component-1-item {
+  height: 12.85%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 87.15%;
+  left: 0;
+  background-color: var(--color-gray-200);
+  z-index: 1;
+}
+.trang-ch3 {
+  height: 4.69%;
+  width: 7.82%;
+  top: 4.82%;
+  left: 54.06%;
+  font-weight: 800;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 2;
+}
+.focused-1-icon,
+.illustrator-tutorials-30-new,
+.social-media-marketing-social {
+  position: absolute;
+  margin: 0 !important;
+  height: 59.3%;
+  width: 27.48%;
+  top: 24.23%;
+  right: 65.52%;
+  bottom: 16.47%;
+  left: 7%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 3;
+}
+.focused-1-icon,
+.social-media-marketing-social {
+  height: 64.79%;
+  width: 20.25%;
+  top: 21.42%;
+  right: 35.22%;
+  bottom: 13.79%;
+  left: 44.53%;
+  z-index: 4;
+}
+.social-media-marketing-social {
+  height: 63.72%;
+  width: 19.88%;
+  top: 22.49%;
+  right: 4.47%;
+  left: 75.65%;
+  z-index: 5;
+}
+.component-1 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

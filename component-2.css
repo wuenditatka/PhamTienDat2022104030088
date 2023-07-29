@@ -1,0 +1,80 @@
+.component-2-child {
+  position: relative;
+  width: 1343px;
+  height: 747px;
+  z-index: 0;
+}
+.component-2-item,
+.trang-ch2 {
+  position: absolute;
+  margin: 0 !important;
+}
+.component-2-item {
+  height: 12.85%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 87.15%;
+  left: 0;
+  background-color: var(--color-gray-200);
+  z-index: 1;
+}
+.trang-ch2 {
+  height: 4.69%;
+  width: 7.82%;
+  top: 4.82%;
+  left: 54.06%;
+  font-weight: 800;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 2;
+}
+.karim-benzema-artwork-1,
+.ti-xung-1,
+.ti-xung-1-1 {
+  position: absolute;
+  margin: 0 !important;
+  height: 49.67%;
+  width: 22.04%;
+  top: 29.05%;
+  right: 38.12%;
+  bottom: 21.29%;
+  left: 39.84%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 3;
+}
+.ti-xung-1,
+.ti-xung-1-1 {
+  height: 63.59%;
+  width: 28.59%;
+  top: 24.23%;
+  right: 66.87%;
+  bottom: 12.18%;
+  left: 4.54%;
+  z-index: 4;
+}
+.ti-xung-1-1 {
+  height: 65.86%;
+  width: 29.93%;
+  top: 21.95%;
+  right: 4.32%;
+  left: 65.75%;
+  z-index: 5;
+}
+.component-2 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
